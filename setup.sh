@@ -8,7 +8,7 @@ tar xvf nvim-linux-x86_64.tar
 rm /bin/nvim
 ln -s $(pwd)/nvim-linux-x86_64/bin/nvim /bin/nvim
 curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
-apt install nodejs -y
+apt-get install nodejs -y
 apt install npm -y
 mkdir ~/Templates
 mkdir ~/Templstes/nvimplugs
