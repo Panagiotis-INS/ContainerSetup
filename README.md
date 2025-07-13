@@ -14,7 +14,7 @@ To configure internet connection, gateway and DNS use the `net.sh` script
 
 ```
 apt update
-apt install wget -y
+apt install wget git -y
 ```
 
 # How to Use the Repo/Script
